@@ -1,0 +1,117 @@
+/*
+	Theme Name: Default Bootstrap
+	Description: Wordpress Bootstrap.
+	Author: Richard Lamoste
+	Author URI: http://www.richardlamoste.com/
+	Version: 1.0
+
+	Tags: bootstrap, simple, clean
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+@import url("css/bootstrap.min.css");
+
+/*GLOBAL*/
+
+body {
+}
+
+
+a, a:visited {
+}
+
+a:hover {
+}
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+strong {
+}
+
+img {
+    max-width: 100%;
+}
+
+label {
+    display: block;
+}
+
+img.alignleft {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+img.alignright {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.navbar .sub-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: 99;
+    display: none;
+    float: left;
+    width: 300px;
+    padding: 20px;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background: #00468f;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.navbar .sub-menu a {
+    color: #fff;
+    display: block;
+}
+
+.navbar .sub-menu a:hover {
+    color: #00a99f;
+    text-decoration: none;
+}
+
+.navbar-nav li.menu-item-has-children:hover > ul {
+    display: block;
+}
+
+blockquote {
+    color: #00aaa0;
+    border: none;
+    padding: 10px;    
+}
+
+blockquote p:before, blockquote p:after {
+    content: '"';
+}
+
+
+/*CUSTOM*/
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 1023px) {
+}
